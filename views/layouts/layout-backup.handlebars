@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html class="load-full-screen">
+<head>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name=”description” content="Find or create your own customize travel packages to Thailand">
+	<meta name="author" content="Padthai Travel">
+
+	<title>{{contents.layout.site_title}}</title>
+
+    <!-- STYLES -->
+	<link href="/frontendshit/css/animate.min.css" rel="stylesheet">
+	<link href="/frontendshit/css/bootstrap-select.min.css" rel="stylesheet">
+	<link href="/frontendshit/css/owl.carousel.css" rel="stylesheet">
+	<link href="/frontendshit/css/owl-carousel-theme.css" rel="stylesheet">
+    <link href="/frontendshit/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="/frontendshit/css/flexslider.css" rel="stylesheet" media="screen">
+	<link href="/frontendshit/css/style.css" rel="stylesheet" media="screen">
+
+	<link href="/frontendshit/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/frontendshit/css/light.css" rel="stylesheet">
+
+	<!-- My shit -->
+	<link href="/frontendshit/css/steve-style.css" rel="stylesheet">
+
+	<!-- FONTS -->
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600' rel='stylesheet' type='text/css'>
+
+</head>
+<body class="">
+	{{> ga}}
+
+<!-- BEGIN: SITE-WRAPPER -->
+<div class="site-wrapper">
+		
+		{{!-- if home page show welcome image and main search --}}
+		{{#if_eq page 'home'}}
+			<div style="background-image: url('{{contents.layout.main_search_background}}');" class="home-welcome-image">
+					{{> front_header}}
+					{{> front_mainsearch}}
+			</div>
+
+			<div class="content">
+				{{{body}}}	
+				{{> front_footer}}
+			</div>
+		{{else}}
+			{{> front_header}}
+			{{{body}}}	
+			{{> front_footer}}
+		{{/if_eq}}
+			
+		
+
+
+
+		
+		
+</div>
+
+<!-- END: SITE-WRAPPER -->
+
+
+
+{{> front_scripts}}
+
+</body>
+</html>

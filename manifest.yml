@@ -1,0 +1,6 @@
+---
+applications:
+- name: beanmarket
+  host: beanmarket
+  memory: 256M
+  command: sails lift

@@ -1,0 +1,212 @@
+
+
+    {   
+        "title": "Joining Locals",
+        "layout": {            
+            "site_title": "Joining Locals - Travel with experience",
+            "main_search_background": "/frontendshit/images/wallpaper/home5.jpg"            
+        },
+        "header":{            
+            "tel": " (+66) 946246699",
+            "email": " info@joininglocals.com",
+            "site_title": "JOINING LOCALS"
+        },
+        "home_page" : {            
+            "main_search": {
+                "search_CTA" : "EXPERIENCE CHIANGMAI",
+                "search_CTA_tagline" : "With experienced locals",
+                "what_we_do": "Find handpicked courses, workshops and learning activities in Chiangmai. Hosted by local professionals that offers to help you get in touch with your creative self." 
+            },
+            "how_it_works_tagline" : "SELECT - BOOK - ENJOY",
+            "how_it_works_desc": "Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "work_steps": [
+                {
+                    "step": "SELECT",
+                    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "fa-class": "fa-search",
+                    "class": "first-step"
+                },
+                {
+                    "step": "BOOK",
+                    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "fa-class": "fa-shopping-cart",
+                    "class": "second-step"
+                },
+                {
+                    "step": "ENJOY",
+                    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "fa-class": "fa-heart-o",
+                    "class": "third-step"
+                }
+            ],
+            "why_us_tagline" : "REASONS TO TRUST US",
+            "why_us_desc": "Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "why_us_item": [
+                {
+                    "reason": "Handpicked Tour",
+                    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "fa-class": "fa-suitcase"   
+                },
+                {
+                    "reason": "Dedicated Support",
+                    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "fa-class": "fa-phone"   
+                },
+                {
+                    "reason": "Lowest Price",
+                    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "fa-class": "fa-smile-o"   
+                }
+            ],
+            "hotdeal_title": "GET IN TOUCH",
+            "hotdeal_tagline": "SUBSCRIBE",
+            "hotdeal_desc": "",
+            "subscribe_title": "GET IN TOUCH",
+            "subscribe_tagline": "SUBSCRIBE",
+            "subscribe_desc": "Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+        },
+        "about_page": {
+            "page_title_img_link": "/frontendshit/images/stock/come.jpg",
+            "header_tagline": "A Few Words About Us",
+            "what_we_do": "<div>&nbsp; &nbsp; <em>\"From our own traveling experiences. We feel that the things that become the most&nbsp;meaningfulto us are not the&nbsp;souvenirs from our trips but it is the stories, experiences andknowledge&nbsp;that makes us who we are.\"</em></div><div>&nbsp;</div><div>&nbsp; &nbsp;<strong>We</strong> noticed that our home town has a number professional locals that offers truly authentic and rewarding activities that would be perfect for tourist to experience when visiting our country. The only problem is that these people are hard to discover because they are not commercialise or presented in brochures. Most of them are not tech savvy, don't have their own website or even social media presence.</div><div>&nbsp;</div><div>&nbsp; <strong>Joininglocals</strong> aims to provide a&nbsp;centralise educational travel platform where tourist can search and book unique and empowering activities, courses and workshops based on their interest and on the other hand help promote our beloved community by offering a channel for&nbsp;skilful locals to connect with you.</div>",
+            "our_team_desc": "Our team behind Joininglocals",
+            "about_side_img" : "/frontendshit/images/stock/teach.jpg",
+            "our_team_founders": [
+                {
+                    "name": "Jirateep Suranant",
+                    "img":"/frontendshit/images/founders/kor.jpg",
+                    "occupation": "Web Developer"
+                },
+                {
+                    "name": "Kittiwat Matanaphan",
+                    "img":"/frontendshit/images/founders/jong.jpg",
+                    "occupation": "Marketing & Branding"
+                },
+                {
+                    "name": "Thirakorn Teerachai",
+                    "img":"/frontendshit/images/founders/chu.jpg",
+                    "occupation": "Sales"
+                }
+            ],
+
+            "our_services": "We gather the best professional locals artist, guides, host and instructors that offer learning activities, workshop, and courses in both traditional and contemporary skills. We aim to handpick the best activities that will offer you the best experience and knowledge, so we can guarantee you will have a memorable time while you stay in our beloved city.",
+            
+            "service_item" : [
+                {
+                    "title": "ACTIVITY BOOKING",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "fa-class": "fa-shopping-cart"
+                },
+                {
+                    "title": "FAIR PRICE",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "fa-class": "fa-usd"
+                    
+                },
+                {
+                    "title": "HANDPICKED",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "fa-class": "fa-thumbs-o-up"
+                },
+                {
+                    "title": "REFUNDABLE",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "fa-class": "fa-credit-card "
+                }
+            ]            
+        },
+        "bookings_page": {
+            "sidebar": {
+                "help_txt" : "Need Help? Call us or drop a message. Our agents will be in touch shortly.",
+                "help_tel" : "+66 46246699"
+            }
+        },
+        "contact_page": {
+            "contact_tagline": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "in_touch_items": [
+                {
+                    "context": "17 Ratchamanka road S.1 T.Prasing U.Muang, Chiang Mai Thailand 50200",
+                    "fa-class": "fa-map-marker"
+                },
+                {
+                    "context": "your@email.com",
+                    "fa-class": "fa-envelope-o"
+                },
+                {   
+                    "context": "your@email.com",
+                    "fa-class": "fa-phone"
+                }
+            ],
+            "contact_address" : "17 Ratchamanka road S.1 T.Prasing U.Muang, Chiang Mai Thailand 50200",
+            "email_form_tagline": "Drop Us a Message",
+            "map_embed_link": "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJG1usnet4BTkRzQqb_Ys-JOg&amp;key=AIzaSyB6hgZM-ruUqTPVUjXGUR-vv7WRqc4MXjY"
+        },
+
+        "email": {
+            "email_socials": {
+                "facebook_link" : "#",
+                "twitter_link" : "#",
+                "ig_link" : "#"
+            }
+        },
+        "socials" : [
+            {   
+                "title": "facebook",
+                "link": "#",
+                "fa-class": "fa-facebook"
+
+            },
+            {
+                "title": "twitter",
+                "link": "#",
+                "fa-class": "fa-twitter"
+            },
+            {
+                "title": "instagram",
+                "link": "#",
+                "fa-class": "fa-instagram"
+            },
+            {
+                "title": "google+",
+                "link": "#",
+                "fa-class": "fa-google-plus"
+            },
+            {
+                "title": "youtube",
+                "link": "#",
+                "fa-class": "fa-youtube"
+            }
+        ],
+        "footer": {
+
+            "contact_item" : [
+                {
+                    "context": "Street #156 Burbank, Studio City Hollywood, California USA",
+                    "fa-class": "fa-home"
+                },
+                {
+                    "context": "+91 1234567890",
+                    "fa-class": "fa-phone"  
+                },
+                {
+                    "context": "support@domain.com",
+                    "fa-class": "fa-envelope-o"  
+                }
+            ],
+
+            "payment_items": [
+                {
+                    "payment_img": {
+
+                    }
+                },
+                {
+                    "payment_img": ""
+                }
+            ],
+            
+            "footer_copyright": "Copyright © 2015 PadThai Travel. All Rights Reserved."
+        }
+        
+    }
+
