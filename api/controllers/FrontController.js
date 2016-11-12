@@ -26,7 +26,7 @@ var FrontController = {
             page: 'profile',
             view: 'front/profile'            
         });
-    }
+    },
 
     Archive: function(req, res) {        
         return res.view({
