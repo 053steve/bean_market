@@ -1,0 +1,11 @@
+#img_upload {
+  display: none;
+}
+
+#upload_pic i.fa-camera {  
+  cursor: pointer;  
+}
+
+#upload_pic i:hover {
+  opacity: 0.6;
+}

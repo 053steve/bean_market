@@ -14,6 +14,27 @@ var FrontController = {
         });
     },    
 
+    Market: function(req, res) {        
+        return res.view({
+            page: 'market',
+            view: 'front/market'            
+        });
+    },    
+
+    Profile: function(req, res) {        
+        return res.view({
+            page: 'profile',
+            view: 'front/profile'            
+        });
+    }
+
+    Archive: function(req, res) {        
+        return res.view({
+            page: 'archive',
+            view: 'front/archive'            
+        });
+    }
+
 }
 
 

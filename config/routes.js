@@ -33,6 +33,9 @@ module.exports.routes = {
   ***************************************************************************/
 
   'get /': 'FrontController.Dashboard',
+  'get /market': 'FrontController.Market',
+  'get /profile': 'FrontController.Profile',
+  'get /archive': 'FrontController.Archive',
   // 'get /comingsoon': 'FrontController.ComingSoon',  
   // 'get /about' : 'FrontController.About',
   // 'get /contact' : 'FrontController.Contact',
