@@ -7,31 +7,31 @@
 
 
 var FrontController = {
-    Dashboard: function(req, res) {        
+    Dashboard: function(req, res) {
         return res.view({
             page: 'dashboard',
-            view: 'front/dashboard'            
-        });
-    },    
-
-    Market: function(req, res) {        
-        return res.view({
-            page: 'market',
-            view: 'front/market'            
-        });
-    },    
-
-    Profile: function(req, res) {        
-        return res.view({
-            page: 'profile',
-            view: 'front/profile'            
+            view: 'front/dashboard'
         });
     },
 
-    Archive: function(req, res) {        
+    Market: function(req, res) {
+        return res.view({
+            page: 'market',
+            view: 'front/market'
+        });
+    },
+
+    Profile: function(req, res) {
+        return res.view({
+            page: 'profile',
+            view: 'front/profile'
+        });
+    },
+
+    Archive: function(req, res) {
         return res.view({
             page: 'archive',
-            view: 'front/archive'            
+            view: 'front/archive'
         });
     }
 
