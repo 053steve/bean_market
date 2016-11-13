@@ -1,7 +1,8 @@
-// Morris.js Charts sample data for SB Admin template
+
 
 $(function() {
-
+    
+    
     // Donut Chart Income
     Morris.Donut({
         element: 'morris-donut-chart-income',
@@ -17,6 +18,7 @@ $(function() {
         }],
         resize: true
     });
+
 
     // Donut Chart Expense
     Morris.Donut({

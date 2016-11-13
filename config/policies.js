@@ -27,20 +27,6 @@ module.exports.policies = {
   ***************************************************************************/
 
   '*': true,
-  BookingController : {
-      '*' : ['isAuthenticated'],
-      addbooking: true
-  },
-  'admin':['isAuthenticated'],
-  'coupon':['isAuthenticated'],  
-  'category':['isAuthenticated'],
-  'tag':['isAuthenticated'],
-  'upload':['isAuthenticated'],
-  'company':['isAuthenticated'],
-  'hotel':['isAuthenticated'],
-  'tour':['isAuthenticated'],
-  'user':['isAuthenticated'],
-  'setting': ['isAuthenticated'],
 
   
 
