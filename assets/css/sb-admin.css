@@ -213,6 +213,7 @@ ul.alert-dropdown {
     border-color: #009966;
     color: #fff;
     background-color: #009966;
+    padding-right:1.5em;
 }
 
 .panel-green > a {
@@ -231,6 +232,7 @@ ul.alert-dropdown {
     border-color: #d9534f;
     color: #fff;
     background-color: #d9534f;
+    padding-right:1.5em;
 }
 
 .panel-red > a {
@@ -268,6 +270,7 @@ ul.alert-dropdown {
     border-color: #339900;
     color: #fff;
     background-color: #339900;
+    padding-right:1.5em;
 }
 
 .panel-yellow > a {
@@ -314,4 +317,12 @@ ul.alert-dropdown {
 .thumbnail .caption-full {
     padding: 9px;
     color: #333;
+}
+
+.review-box {
+  margin-right: 10px;
+}
+
+.thumb {
+    margin-bottom: 30px;
 }
