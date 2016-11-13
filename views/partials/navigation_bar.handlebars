@@ -18,8 +18,13 @@
                     <i class="fa fa-fw fa-camera"></i>
                     
                 {{!-- </div>             --}}
-            </a>    
-            <input type="file" accept="image/*" capture="camera" id="img_upload"/>        
+            </a>                
+
+            <form id="upload_form" enctype="multipart/form-data" action="/upload/dropUpload" method="post">
+                <input type="file" accept="image/*" capture="camera" id="img_upload" name="userPhoto"/>
+                {{!-- <input type="file" id="img_upload" name="userPhoto"/>         --}}
+            </form>
+            
         </li>
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>

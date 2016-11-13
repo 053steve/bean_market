@@ -65,7 +65,7 @@ module.exports.connections = {
     // user: 'username',
     // password: 'password',
     // database: 'sextourist_test'
-    database: 'padthai_test'
+    database: 'beanmarketDB'
     // database: 'padthai_dev'
   },
 

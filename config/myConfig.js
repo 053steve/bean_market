@@ -2,7 +2,7 @@
 module.exports.myconf = {
     // uploadFilePath: '/backendshit/images/upload/',
     // importFilePath: '/joint-assets/images/upload/',
-    // uploadDestination: '../../assets/backendshit/images/upload',
+    uploadDestination: '../../assets/imgs/upload',
     // importDirectory: './csv-import/img/',
     // importDestination: './assets/joint-assets/images/upload/',    
     // currencies: './servdata/currencies.json',

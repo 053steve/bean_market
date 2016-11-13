@@ -1785,9 +1785,13 @@ Licensed under the BSD-2-Clause License.
     };
 
     Donut.prototype.resizeHandler = function() {
-      this.timeoutId = null;
-      this.raphael.setSize(this.el.width(), this.el.height());
-      return this.redraw();
+      Morris.Donut.prototype.resizeHandler = function () {
+          if ($(this.el).is(":visible")) {
+              this.raphael.setSize(this.el.width(), this.el.height());
+              return this.redraw();
+          }
+          else return null;
+      };
     };
 
     return Donut;

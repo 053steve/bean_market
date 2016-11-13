@@ -42,6 +42,8 @@
     "sails-disk": "~0.10.0",
     "sails-generate-auth": "^0.3.1",
     "sails-mongo": "0.12.0",
+    "shortid": "^2.2.6",
+    "sid": "^0.1.0",
     "validator": "5.2.0"
   },
   "scripts": {
