@@ -28,12 +28,26 @@ var FrontController = {
         });
     },
 
-    Archive: function(req, res) {
-        return res.view({
-            page: 'archive',
-            view: 'front/archive'
+    MyReceipt: function(req, res) {
+        Upload.find().exec(function (err, uploads){
+          if (err) {
+            return res.serverError(err);
+          }
+          console.log(uploads);
+          return res.view({
+                page: 'myreceipt',
+                view: 'front/myreceipt'
+            });
         });
-    }
+        
+    },
+
+    UserReceipt: function(req, res) {
+        return res.view({
+            page: 'userreceipt',
+            view: 'front/myreceipt'
+        });
+    },
 
 }
 
