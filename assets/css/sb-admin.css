@@ -326,3 +326,19 @@ ul.alert-dropdown {
 .thumb {
     margin-bottom: 30px;
 }
+
+.navbar-brand>img {
+  height: 100%;
+  padding: 0px;
+  width: auto;
+}
+
+.img-accountant-profile {
+  width: 100%;
+  height: auto;
+}
+
+.input-group {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
