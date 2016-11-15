@@ -20,6 +20,7 @@ module.exports.models = {
   // connection: 'MysqlServer',
 
   // changed to mongo
+  // connection: 'remoteMongo',
   connection: 'MyMongo',
 
   /***************************************************************************
