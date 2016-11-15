@@ -29,7 +29,7 @@ var FrontController = {
     },
 
     MyReceipt: function(req, res) {
-        Upload.find().exec(function (err, receipts){
+        Upload.find({sort: 'createdAt DESC'}).exec(function (err, receipts){
           if (err) {
             return res.serverError(err);
           }
@@ -38,35 +38,7 @@ var FrontController = {
                 page: 'myreceipt',
                 view: 'front/myreceipt',
                 receipts: receipts
-            });
-          // var results = [];
-          // // assuming openFiles is an array of file names
-          //   async.each(receipts, function(receipt, cb) {
-          //       var newpath = receipt.path.split("../../assets/");
-          //       console.log('newpath ' + newpath[1]);
-          //       receipt.newpath = newpath[1];
-          //       results.push(receipt)
-          //       // Perform operation on file here.
-          //       console.log('Processing file ' + JSON.stringify(receipt));
-
-          //       cb()
-          //   }, function(err) {
-          //       // if any of the file processing produced an error, err would equal that error
-          //       if( err ) {
-          //         // One of the iterations produced an error.
-          //         // All processing will now stop.
-          //         console.log('A file failed to process');
-          //       } else {
-          //         console.log('All files have been processed successfully');
-          //       }
-
-          //       return res.view({
-          //           page: 'myreceipt',
-          //           view: 'front/myreceipt',
-          //           receipts: results
-          //       });
-          //   });          
-          
+            });          
         });
         
     },

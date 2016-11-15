@@ -1,4 +1,4 @@
-var fs = require('fs');
+var fs = require('fs-extra');
 
 /**
  * UploadController
@@ -11,7 +11,7 @@ var fs = require('fs');
 
  function formatUrl(url) {
      uploadPath = sails.config.myconf.uploadDestination;
-     path = '/imgs/upload/' + url.substr(url.lastIndexOf('/') + 1);
+     path = '/uploads/' + url.substr(url.lastIndexOf('/') + 1);
 
      return path;
 
@@ -22,7 +22,7 @@ var UploadController = {
 			
 			dropUpload: function(req, res){
 				req.file('userPhoto').upload({
-		        dirname: process.cwd() + sails.config.myconf.uploadDestination,
+		        dirname: process.cwd() + sails.config.myconf.tempDestination,
 		        maxBytes: 10000000
 		    },
 
@@ -49,9 +49,9 @@ var UploadController = {
 		        	 var filename = uploadedFiles[0].fd.substring(uploadedFiles[0].fd.lastIndexOf('/')+1);
                var uploadLocation = process.cwd() + sails.config.myconf.uploadDestination + filename;
                var tempLocation = process.cwd() + sails.config.myconf.tempDestination + filename;
-
-               // fs.createReadStream(uploadLocation).pipe(fs.createWriteStream(tempLocation));
-               fs.symlink(uploadLocation, tempLocation, function(err) {
+               
+               fs.copy(tempLocation, uploadLocation, function (err) {
+								  console.log('err is ' + err);
 							    
 						 			 var path = formatUrl(uploadLocation);
 						       Upload.create({
@@ -62,7 +62,7 @@ var UploadController = {
 												res.send(upload);
 
 									 });
-							  });
+								});
 		           
 		        }
 		    });					

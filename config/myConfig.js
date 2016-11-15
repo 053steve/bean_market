@@ -11,8 +11,8 @@ module.exports.myconf = {
     // no_img_sm_path: '/frontendshit/images/no_img_small.jpg',
     // no_img_md_path: './frontendshit/images/no_img_sm.jpg'
 
-    uploadDestination: '/assets/imgs/upload/',
-    tempDestination: '/.tmp/public/images/uploads/'
+    uploadDestination: '/assets/uploads/',
+    tempDestination: '/.tmp/public/uploads/'
 
 
 };
